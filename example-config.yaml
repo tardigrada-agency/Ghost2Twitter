@@ -1,0 +1,14 @@
+consumer_key: BVYGSqiC3t96XjjMT73ARtPDK
+consumer_secret: zRMFUyaojttySNyKD2dAgvnEjKpS5tEVj22w8DQreAYCexwaox
+default_session: account1
+rules:
+- session: account2
+  tag: theme2
+  type: primary-tag
+sessions:
+  account1:
+    access_token: 9834133629615660313-g9HopTaqDMzQebCSoiVMiYmqZ46Mnv
+    access_token_secret: F67FA5SJietSbR4pXmiwqoHpu7wsmVA3CWEjskrRcywLr
+  account2:
+    access_token: 1180386225398150353-pgSGKJez64h6H3FUCmkr5nJRgS2deB
+    access_token_secret: JptbzzF9feGGDLUF33Xsbs7htuoEWMFNie3mcvMj2F4he

@@ -1,0 +1,7 @@
+consumer_key: CHANGE_ME
+consumer_secret: CHANGE_ME
+default_session: ACCOUNT_NAME
+sessions:
+  ACCOUNT_NAME:
+    access_token: CHANGE_ME
+    access_token_secret: CHANGE_ME
