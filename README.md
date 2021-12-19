@@ -7,7 +7,7 @@ Ghost2Twitter - microservice built to simplify posting from Ghost.org to Twitter
 ## Preparation and configuration
 
 0. You need to create a Twitter developer account and an application in it, read about it on the Internet.
-1. Go to [Developer Portal][https://developer.twitter.com/en/portal/dashboard]
+1. Go to [Developer Portal](https://developer.twitter.com/en/portal/dashboard)
 2. Select your App
 3. Click edit near OAuth and add http://127.0.0.1:8084/twitter-login to Callback URI / Redirect URL, select Read and write in App permissions
 4. Go back to your app page and click Keys and tokens
