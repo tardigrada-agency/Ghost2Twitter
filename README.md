@@ -9,7 +9,7 @@ Ghost2Twitter - microservice built to simplify posting from Ghost.org to Twitter
 0. You need to create a Twitter developer account and an application in it, read about it on the Internet.
 1. Go to [Developer Portal][https://developer.twitter.com/en/portal/dashboard]
 2. Select your App
-3. Cleck edit near  OAuth and add http://127.0.0.1:8084/twitter-login to Callback URI / Redirect URL, select Read and write in App permissions
+3. Click edit near OAuth and add http://127.0.0.1:8084/twitter-login to Callback URI / Redirect URL, select Read and write in App permissions
 4. Go back to your app page and click Keys and tokens
 5. Open config.yaml in a editor like nano or vim
 6. Copy consumer_key and consumer_secret from Consumer Keys to config, quotes are not required
@@ -20,7 +20,7 @@ Ghost2Twitter - microservice built to simplify posting from Ghost.org to Twitter
 Launching in Docker is the recommended option, it is the easiest and fastest.
 
 0. Install docker and docker-compose
-1. cd to folder where you clone this code
+1. cd to directory where you clone this project
 2. Run docker-compose up -d --build
 3. If your Ghost run's in Docker, than add Ghost2Twitter and Ghost to same docker network, read about it [here](https://docs.docker.com/network/) and [here](https://docs.docker.com/compose/networking/)
 
@@ -29,7 +29,7 @@ Launching in Docker is the recommended option, it is the easiest and fastest.
 This method is not recommended, it is less convenient and longer.
 
 0. Install python3 and pip (`# apt install python3 python3-pip` for debian and ubuntu)
-1. cd to folder where you clone this code
+1. cd to directory where you clone this project
 2. Install requirements `python3 -m pip install -r requirements.txt`
 3. and finnaly run `uvicorn main:app --host 127.0.0.1 --port 8084`
 
