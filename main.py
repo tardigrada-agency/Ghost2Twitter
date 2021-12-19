@@ -197,7 +197,7 @@ async def new_post(post: Request) -> JSONResponse:
         response['msg'] = 'Wrong default_session in the config.yaml'
 
     # Processing rules
-    for rule in config['rules']:
+    for rule in config.rules:
         if rule['type'] == 'primary-tag':
             if not post['current']['primary_tag']:
                 continue
