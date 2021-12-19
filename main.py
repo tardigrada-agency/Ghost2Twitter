@@ -176,10 +176,10 @@ async def new_post(post: Request) -> JSONResponse:
     logger.info(f'New post from Ghost!')
     response = {'status': 'success', 'msg': ''}
     tweet = ''
-    session_name = config['default_session']
+    session_name = config.default_session
     post = await post.json()
     post = post['post']
-    print(post)
+
     # Creating tweet
     if post['current']['twitter_title']:
         tweet += post['current']['twitter_title']
@@ -192,7 +192,7 @@ async def new_post(post: Request) -> JSONResponse:
     if len(tweet) > 280:
         response['status'] = 'error'
         response['msg'] = 'Tweet can\'t be more than 280 characters'
-    if config['default_session'] not in config['sessions'].keys():
+    if config.default_session not in config.sessions.keys():
         response['status'] = 'error'
         response['msg'] = 'Wrong default_session in the config.yaml'
 
