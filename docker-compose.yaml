@@ -1,7 +1,7 @@
 version: '3'
 services:
-  ghost2twitter:
-    container_name: ghost2twitter
+  ghost2twitter.local:  # Container must have dot in name, since the Ghost does not allow adding a webhook if there is no dot in  url
+    container_name: ghost2twitter.local
     build:
       .
     ports:

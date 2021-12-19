@@ -52,7 +52,7 @@ To work with Ghost, we need to set up an integration and a webhook, without it n
 4. Click "Add webhook"
 5. Enter Name (example "New post published")
 6. Select Event "Post published"
-7. Enter Target URL, http://ghost2twitter:8084/new_post for docker and http://127.0.0.1:8084/new_post for without docker installation.
+7. Enter Target URL, http://ghost2twitter.local:8084/new_post for docker and http://127.0.0.1:8084/new_post for without docker installation.
 8. Click "Create"
 
 
