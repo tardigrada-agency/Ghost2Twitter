@@ -1,7 +1,7 @@
 # Ghost2Twitter
 
-```DO NOT
-DO NOT OPEN ACCESS TO GHOST2TWITTER FROM THE INTERNET, LEAVE IT WITHIN LOCAL NETWORK WITH GHOST.
+```
+MAKE SURE YOUR Ghost2Twitter INSTANCE IS NOT AVAILABLE FROM INTERNET
 ```
 Ghost2Twitter - microservice built to simplify posting from Ghost.org to Twitter. It stands out for being completely selfhosted and allowing you to create rules to post to different accounts.
 ## Preparation and configuration
