@@ -24,6 +24,8 @@ Launching in Docker is the recommended option, it is the easiest and fastest.
 2. Run docker-compose up -d --build
 3. If your Ghost run's in Docker, than add Ghost2Twitter and Ghost to same docker network, read about it [here](https://docs.docker.com/network/) and [here](https://docs.docker.com/compose/networking/)
 
+note: Ghost does not allow domains without a dot in webhooks, so you have to add a dot in the container name, for example .local at the end.
+
 ## Running without Docker
 
 This method is not recommended, it is less convenient and longer.
@@ -32,7 +34,6 @@ This method is not recommended, it is less convenient and longer.
 1. cd to directory where you clone this project
 2. Install requirements `python3 -m pip install -r requirements.txt`
 3. and finnaly run `uvicorn main:app --host 127.0.0.1 --port 8084`
-
 
 ## Setup Accounts and Rules 
 
